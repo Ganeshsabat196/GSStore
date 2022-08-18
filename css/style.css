@@ -1,0 +1,108 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+
+
+@media(max-width:991px ) and (min-width:0px){
+    .col-md-4{
+        display: flex;
+    }
+}
+body {
+    background-image: url("../media/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container {
+    
+    text-align: center;
+    justify-content: center;
+}
+
+#heading1 {
+    color: white;
+    background-color: rgb(7, 7, 8);
+    font-family: 'Rubik Marker Hatch', cursive;
+
+
+}
+
+h3{
+    background-color:white;
+    font-family: 'Kanit', sans-serif;
+}
+
+#form{
+    
+    width: 60%;
+    justify-content: center;
+   font-size: larger;
+   display: none;
+   
+}
+
+#form1{
+    width: 60%;
+    justify-content: center;
+   font-size: larger;
+ 
+   
+   
+}
+
+.btn{
+    border: 3px solid black;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+
+}
+#table1{
+    background-color: white;
+    color: black;
+}
+
+#card1{
+    font-family: 'Teko', sans-serif;
+}
+.card-text{
+    background-color: yellow;
+    border: 1px solid black;
+}
+/* .card-img-top{
+    filter: invert(1);
+} */
+#heading2{
+    /* about --> text section */
+    font-size: xx-large;
+    list-style: none;
+
+}
+#para{
+    /* about--->text section  */
+    margin-left: 20px;
+    font-size: large;
+}
+#foot1{
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(222, 157, 18);
+ 
+    
+}
+#card2{
+    background-color: aquamarine;
+}
